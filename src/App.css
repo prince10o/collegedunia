@@ -1,0 +1,69 @@
+body {
+  background-color: beige;
+}
+.App {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.search-container {
+  width: 200px;
+  padding-left: 50px;
+  margin: 20px;
+  background-color: #1a445f;
+  color: #007bff;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  border: 3px solid #e9e6e6;
+  padding: 8px;
+  text-align: left;
+  background-color: rgb(246, 242, 243);
+}
+th {
+  border: 3px solid #dddddd;
+  padding: 8px;
+  text-align: left;
+  color: white;
+}
+.App h1 {
+  font-style: oblique;
+  color: #1a445f;
+  font-size: 2.5rem;
+}
+
+th {
+  background-color: rgb(35, 151, 171);
+  cursor: pointer;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.college-info h3 {
+  color: rgb(59, 172, 180);
+}
+.compare-fees {
+  margin-top: 60px;
+}
+.actions {
+  text-align: center;
+}
